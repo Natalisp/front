@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+
+body {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  font-family: 'Nunito', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.top-header {
+  font-size: 70%;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 8;
+  letter-spacing: 0.15rem; }
+
+.header-top {
+  background-color: #fbe9ed;
+  color: #000;
+  text-align: center;
+  padding: 0.7rem 2rem;
+  font-size: 90%; }
+
+.header-bottom {
+  padding-right: 3rem; }
+
+.header-bottom {
+  padding-left: 3rem; }
+
+.desktop-nav {
+  display: none; }
+
+@media (min-width: 900px) {
+  .desktop-nav {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center; } }
+.nav-left, .nav-right {
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.nav-left {
+  position: relative;
+  left: 10%; }
+
+.nav-right {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end; }
+
+.menu-item {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  display: block;
+  padding: 1.5rem; }
+
+.menu-item a {
+  color: #000;
+  text-decoration: none; }
+  .menu-item a:hover {
+    text-decoration: underline; }
+
+/* MENU END*/
+/* CONTENT */
+.main-pic-big {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+.main-pic-big:nth-of-type(1) {
+  background-image: url("https://cdn.shopify.com/s/files/1/1689/2633/files/FANG_OLIVE_33b7c683-d87c-4886-a714-38f99d1b68c7_2560x1440_crop_bottom.progressive.jpg?v=1494622673"); }
+
+.main-pic-big:nth-of-type(2) {
+  background-image: url("https://cdn.shopify.com/s/files/1/1689/2633/files/starling_bf80c0fd-ba19-4d7d-93c0-21d6fa80edb9_2560x1440_crop_bottom.progressive.jpg?v=1494909687"); }
+
+.main-pic-big:nth-of-type(3) {
+  background-image: url("https://cdn.shopify.com/s/files/1/1689/2633/files/ZULU2_2560x1440_crop_bottom.progressive.jpg?v=1493954843"); }
+
+.main-pic-big:nth-of-type(4) {
+  background-image: url("https:////cdn.shopify.com/s/files/1/1689/2633/files/MONGO2_1c38b100-4ed0-4bd2-af18-c06d0b13b219_2560x1440.progressive.jpg?v=1492881577"); }
+
+/*# sourceMappingURL=style.css.map */
