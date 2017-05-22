@@ -13,13 +13,13 @@ $(function() {
 
 
 function changeImg() {
-  $(this).animate({opacity: 0.4}, 100, function(){
+  // $(this).animate({opacity: 0.8}, 100, function(){
     var $this = $(this).find('img');
     var newSource = $this.data('alt-src');
     $this.data('alt-src', $this.attr('src'));
     $this.attr('src', newSource);
-  });
-  $(this).animate({opacity: 1}, 1000);
+  // });
+  // $(this).animate({opacity: 1}, 1000);
 }
 
 function changeImgBack() {
