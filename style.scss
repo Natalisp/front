@@ -609,13 +609,32 @@ input:focus {
     height: 2.5rem;
     padding: 0;
   }
+  #modal-container .modal-background .modal p {
+    font-size: 12px;
+    line-height: 28px;
+  }
 }
 
 @media (max-width: 420px) {
   .logo {
     top: -2%;
   }
+  #modal-container .modal-background .modal h2 {
+    font-size: 17px;
+  }
+  #modal-container .modal-background .modal p {
+    font-size: 8px;
+    line-height: 16px;
+  }
+  .footer-menu:nth-child(2) {
+    padding: 0;
+  }
+  .footer-menu:nth-child(2) a:link {
+    display: block;
+  }
 }
+
+
 
 @media not all and (min-resolution:.001dpcm)
 { @supports (-webkit-appearance:none) {
