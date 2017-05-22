@@ -32,7 +32,7 @@ a {
   left: 3vw; }
 
 .top-header {
-  font-size: 70%;
+  font-size: 60%;
   background-color: transparent;
   position: fixed;
   top: 0;
@@ -97,7 +97,7 @@ a {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
   display: block;
-  padding: 1.5rem;
+  padding: 1rem;
   position: relative;
   z-index: 20; }
 
@@ -107,6 +107,9 @@ a {
 
 .menu-item a:hover {
   text-decoration: none; }
+
+.fa {
+  opacity: 0.7; }
 
 .hidden {
   opacity: 0; }
@@ -131,6 +134,7 @@ a {
 .inside-menu-items:hover a:link:hover {
   color: #000;
   opacity: 1;
+  font-weight: bolder;
   text-shadow: 0 1px 0 #fff; }
 
 #sale {
@@ -169,6 +173,7 @@ a {
   margin-bottom: 5rem; }
 
 .gallery-grid {
+  padding: 0 1rem;
   display: flex;
   display: -webkit-box;
   display: -webkit-flex;
@@ -177,9 +182,7 @@ a {
 .grid-item {
   width: 33.3%;
   box-sizing: border-box;
-  padding: 2rem;
-  padding-left: .8rem;
-  padding-right: .8rem; }
+  padding-left: .8rem; }
 
 .grid-item img {
   width: 100%;
@@ -339,7 +342,7 @@ input:focus {
         border-radius: 3px; }
         #modal-container .modal-background .modal .modal-svg rect {
           stroke: #fff;
-          stroke-width: 2px;
+          stroke-width: 7px;
           stroke-dasharray: 2000;
           stroke-dashoffset: 1780; }
 
