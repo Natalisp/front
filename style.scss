@@ -635,9 +635,12 @@ input:focus {
   .footer-menu:nth-child(2) a:link {
     display: block;
   }
-  .main-pic-big:nth-of-type(1) {
-    
-    background-image: url('img-big-1.jpg');
+  .main-pic-big {
+    background-size: 550px;
+    height: 300px;
+  }
+  *:-o-prefocus, .logo {
+    top: -4%;
   }
 }
 

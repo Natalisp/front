@@ -36,4 +36,10 @@ function showMessage() {
   $(this).addClass('out');
   $('body').removeClass('modal-active');
 });
+
+var isOpera = (!!window.opr && !!opr.addons) || !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
+if(isOpera){
+    $('.logo').css('top','-4%');
+}
+
 }
