@@ -154,7 +154,10 @@ a {
   justify-content: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover; }
 
 .main-pic-big:nth-of-type(1) {
   background-image: url("https://cdn.shopify.com/s/files/1/1689/2633/files/FANG_OLIVE_33b7c683-d87c-4886-a714-38f99d1b68c7_2560x1440_crop_bottom.progressive.jpg?v=1494622673"); }
@@ -494,7 +497,9 @@ input:focus {
   .footer-menu:nth-child(2) {
     padding: 0; }
   .footer-menu:nth-child(2) a:link {
-    display: block; } }
+    display: block; }
+  .main-pic-big:nth-of-type(1) {
+    background-image: url("img-big-1.jpg"); } }
 
 @media not all and (min-resolution: 0.001dpcm) {
   @supports (-webkit-appearance: none) {
